@@ -8,9 +8,7 @@ How to use:
 	To run the project via eclipse, 
 		- Comment out line 21-33 of Main.java
 		- Change line 39 of Main.java to "system.setProperty("webdriver.chrome.driver", "\\src\\chromedriver.exe");"
-
 	OR
-	
 	To run as an executable
 		- Use eclipse to export as an executable jar file
 
