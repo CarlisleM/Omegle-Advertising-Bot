@@ -7,7 +7,6 @@ import java.awt.*;
 import java.net.URL;
 import java.io.File;
 
-
 public class Main {
 	
 	public static void main(String[] args) throws AWTException, InterruptedException, Exception {
