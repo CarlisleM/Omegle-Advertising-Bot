@@ -1,0 +1,58 @@
+{
+  "id": "ab1c3187-b8c7-4ecb-b552-6309391b144c",
+  "version": "1.1",
+  "name": "MoneyBot",
+  "url": "https://www.omegle.com/",
+  "tests": [{
+    "id": "6584abe1-298e-4caf-a7ce-2c9b8d1cdd48",
+    "name": "Untitled",
+    "commands": [{
+      "id": "616bd4ae-6b34-4ae8-b29f-9d30607ddb0a",
+      "comment": "",
+      "command": "if",
+      "target": "id=textbtn",
+      "targets": [
+        ["id=textbtn", "id"],
+        ["css=#textbtn", "css"],
+        ["css=#textbtn", "css:finder"],
+        ["xpath=//img[@alt='Text chat']", "xpath:img"],
+        ["xpath=//img[@id='textbtn']", "xpath:attributes"],
+        ["xpath=//td[@id='chattypetextcell']/img", "xpath:idRelative"],
+        ["xpath=//td[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "922fc887-7a49-4a1e-9ef6-92a26c0cd199",
+      "comment": "",
+      "command": "click",
+      "target": "id=textbtn",
+      "targets": [
+        ["id=textbtn", "id"],
+        ["css=#textbtn", "css"],
+        ["css=#textbtn", "css:finder"],
+        ["xpath=//img[@alt='Text chat']", "xpath:img"],
+        ["xpath=//img[@id='textbtn']", "xpath:attributes"],
+        ["xpath=//td[@id='chattypetextcell']/img", "xpath:idRelative"],
+        ["xpath=//td[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5807fe6-0777-4376-b85e-fb117374a076",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "066255a9-9c96-4670-afc1-842efef2a985",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6584abe1-298e-4caf-a7ce-2c9b8d1cdd48"]
+  }],
+  "urls": ["https://www.omegle.com/"],
+  "plugins": []
+}
